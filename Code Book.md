@@ -23,14 +23,14 @@ and the 'Test' datasets(ie. testSubject, testValues, testActivity) using 'rbind'
 5. Appropriately labels the data set with descriptive variable names.
 - the gsub function is used to remove any '(' , ')', '-' symbols in the variable names
 - additionally the following name changes to the variable/column names have also been made to enhance its descriptiveness and completeness:
-"^f" - "frequencydomain" (ie where the 'f'string appears at the beginning of the variable name, replaced with "frequencydomain" instead)
-"^t" - "timeDomain"
-"[Aa]cc" - "Accelerometer"
-"[Gg]yro" - "Gyroscope"
-"[Mm]ag" - "Magnitude"
-"[Ff]req" - "Frequency"
-"mean" - "Mean"
-"[Ss]td" - "StandardDeviation"
+i) "^f" - "frequencydomain" (ie where the 'f'string appears at the beginning of the variable name, replaced with "frequencydomain" instead)
+ii) "^t" - "timeDomain"
+iii) "[Aa]cc" - "Accelerometer"
+iv) "[Gg]yro" - "Gyroscope"
+v) "[Mm]ag" - "Magnitude"
+vi) "[Ff]req" - "Frequency"
+vii) "mean" - "Mean"
+viii) "[Ss]td" - "StandardDeviation"
 
 6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 - using the DPLYR package and applying the pipeline operator %>% , created a table of each of the variable means grouped by 'subject' and 'activity'.
