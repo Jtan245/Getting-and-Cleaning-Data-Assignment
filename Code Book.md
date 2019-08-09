@@ -23,7 +23,7 @@ and the 'Test' datasets(ie. testSubject, testValues, testActivity) using 'rbind'
 5. Appropriately labels the data set with descriptive variable names.
 - the gsub function is used to remove any '(' , ')', '-' symbols in the variable names
 - additionally the following name changes to the variable/column names have also been made to enhance its descriptiveness and completeness:
-i) "^f" - "frequencydomain" (ie where the 'f'string appears at the beginning of the variable name, replaced with "frequencydomain" instead)
+i) "^f" - "frequencydomain" (ie where the 'f' string appears at the beginning of the variable name, replaced with "frequencydomain" instead)
 ii) "^t" - "timeDomain"
 iii) "[Aa]cc" - "Accelerometer"
 iv) "[Gg]yro" - "Gyroscope"
