@@ -34,6 +34,7 @@ viii) "[Ss]td" - "StandardDeviation"
 
 6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 - using the DPLYR package and applying the pipeline operator %>% , created a table of each of the variable means grouped by 'subject' and 'activity'.
+- summary output to tidy_data.txt file.
 
 
 
